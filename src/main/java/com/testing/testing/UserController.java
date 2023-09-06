@@ -23,7 +23,7 @@ public class UserController {
 
     // post new data
     @PostMapping("/postuser")
-    public void  addAllEmployees(@RequestBody User user){
+    public void  addAllUser(@RequestBody User user){
         userRepo.save(user);
 
     }
